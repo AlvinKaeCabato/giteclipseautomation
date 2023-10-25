@@ -11,7 +11,10 @@ import io.appium.java_client.android.nativekey.KeyEvent;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import utils.AndroidActions;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
+@Test
 public class FormPage extends AndroidActions{
 	AndroidDriver driver;
 	public FormPage(AndroidDriver driver) {

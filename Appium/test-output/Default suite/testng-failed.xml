@@ -5,8 +5,9 @@
     <classes>
       <class name="collabera.LaunchApplication">
         <methods>
-          <include name="launchApp"/>
           <include name="tearDown"/>
+          <include name="launchApp"/>
+          <include name="closeReport"/>
           <include name="startServerwithApp"/>
           <include name="configReports"/>
         </methods>

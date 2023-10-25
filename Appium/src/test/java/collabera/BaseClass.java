@@ -34,14 +34,14 @@ public class BaseClass {
 		prop.load(fis);
 		String ipAddress=prop.getProperty("ipAddress");
 		String portNo=prop.getProperty("port");
-		String deviceName=prop.getProperty("AndroidDeviceName");
+		String deviceName=prop.getProperty("Pixel4KaeTest");
 		
-		service=new AppiumServiceBuilder().withAppiumJS(new File("C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
+		service=new AppiumServiceBuilder().withAppiumJS(new File("C:\\Users\\COLLABERA.DIGITAL\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
 				.withIPAddress(ipAddress).usingPort(Integer.parseInt(portNo)).build();
 		service.start();
 		UiAutomator2Options options=new UiAutomator2Options();
 		options.setDeviceName(deviceName);
-		options.setApp("C:\\Users\\Lenovo\\eclipse-workspace\\Appium\\src\\main\\java\\resources\\ApiDemos-debug.apk");
+		options.setApp("C:\\Users\\COLLABERA.DIGITAL\\eclipse-workspace\\testProjArt\\src\\main\\java\\resources\\APKFiles\\resources\\ApiDemos-debug.apk");
 		driver=new AndroidDriver(new URL("http://127.0.0.1:4723"),options);
 
 		formPage=new FormPage(driver);
