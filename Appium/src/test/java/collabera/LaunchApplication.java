@@ -16,7 +16,7 @@ public class LaunchApplication extends BaseClass {
 		test.info("Clicked on Views");
 		test.info("Scroll to bottom WebViews");
 		AndroidActions.scollToText("WebView");
-		test.pass("Clicked on WebView");
+		test.pass("Clicked on WebView Passed");
 		
 	}
 }

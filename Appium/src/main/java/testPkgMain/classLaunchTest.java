@@ -75,6 +75,7 @@ public class classLaunchTest extends baseClass {
 			}
 		}
 		
+		}
 		/*-
 		//Scroll Gesture
 		while(scrollDownPossible()) {
