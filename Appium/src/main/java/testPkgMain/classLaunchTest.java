@@ -109,8 +109,8 @@ public class classLaunchTest extends baseClass {
 		 -*/
 		 
 		//Close
-		tearDown();
+		//tearDown();
   }
 
 
-}
+
